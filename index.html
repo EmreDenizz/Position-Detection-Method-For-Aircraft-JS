@@ -37,7 +37,7 @@ input[type="submit"]: hover { opacity: 0.70; }
 		<br/><br/><p class="subtitle">OBSERVATION AREA OF THE AIRCRAFT (3x3)</p>
 		<table id="depthTable">
 			<tr><td></td><td></td><td></td></tr>
-			<tr><td></td><td><img style="width: 37px; transform: rotate(-90deg);" src="image/plane.png"/></td><td></td></tr>
+			<tr><td></td><td><img style="width: 37px; transform: rotate(-90deg);" src="images/plane.png"/></td><td></td></tr>
 			<tr><td></td><td></td><td></td></tr>
 		</table>
 	</div>
@@ -49,7 +49,7 @@ input[type="submit"]: hover { opacity: 0.70; }
 	
 	<div class="right">
 		<p class="subtitle" style="visibility: hidden;">TEST</p>
-		<input name="commit" value="MOVE" onclick="move();" type="submit">
+		<input name="commit" value="MOVE" onclick="move();" type="submit" style="padding: 15px; height: 60px; font-size: 20px;">
 		<br/><br/><p class="title" style="color: black;">STEP: <span id="step"></span></p>
 	</div>
 	
@@ -104,7 +104,7 @@ var position = positionR * mapSize + positionC;
 var direction = decideDirection(positionR, positionC, 0);
 var rotation = calculateRotation(direction);
 
-$("#map_"+position).append('<img style="width: 37px; transform: rotate('+rotation+'deg);" src="image/plane.png"/>');
+$("#map_"+position).append('<img style="width: 37px; transform: rotate('+rotation+'deg);" src="images/plane.png"/>');
 
 // function definitions
 function move(){
@@ -121,7 +121,7 @@ function move(){
 	direction = decideDirection(positionR, positionC, direction);
 	rotation = calculateRotation(direction);
 
-	$("#map_"+position).append('<img style="width: 37px; transform: rotate('+rotation+'deg);" src="image/plane.png"/>');
+	$("#map_"+position).append('<img style="width: 37px; transform: rotate('+rotation+'deg);" src="images/plane.png"/>');
 	
 	observe(positionR, positionC);
 	
