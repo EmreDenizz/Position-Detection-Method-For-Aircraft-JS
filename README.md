@@ -17,7 +17,7 @@ Mobile robots are robots that are not fixed to a physical point and can perform 
 * Land Traveling Robots
 * BEAM (Biology, Electronics, Aesthetic, Mechanics) Robots
 
-#### How Robots Detect Location?:
+#### How Do Robots Detect Location?:
 *Open Areas:*
 <br/>
 <img src="images/Desc_3.png" height="150"/>
@@ -28,7 +28,7 @@ Location determination in open areas is done by GPS (Global Positioning System).
 <br/>
 In today's modern cities, the number of multi-storey, complex and wide-area buildings is increasing day by day. Due to the complex structures of the buildings, direct use of GPS is not possible in closed areas. For this reason, technologies such as bluetooth, wifi and RFID are used in closed areas.
 
-#### Solution -> Bayesian Filter:
+#### SOLUTION - Bayesian Filter:
 Bayesian filter shows the relationship between conditional probabilities and variable probabilities within the probability distribution for a rational variable. The following formulas are used in the solution;
 * Observation Pattern: ![equation] P(Xi | Z) = P(Z | Xi) P(Xi) / P(Z)
 * Transition Model: ![equation] P(Xi(t)) = Σj P(Xj(t-1)) P(Xi | Xj)
