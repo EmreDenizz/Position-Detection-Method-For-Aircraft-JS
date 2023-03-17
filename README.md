@@ -1,9 +1,9 @@
 # Position-Detection-Method-For-Aircraft-JS
 
-## How to Run:
+## HOW TO RUN:
 Open **index.html** file on any browser that runs JavaScript.
 
-## Descriptions:
+## DESCRIPTIONS:
 This is a Position Detection With Bayes Filtering Method For Mobile Robots (Bayes Localization).
 
 #### What is a Mobile Robot?:
@@ -49,7 +49,7 @@ With this method, an airplane, helicopter or unmanned aerial vehicle can find it
 * It measures with SAR (Synthetic Aperture Radar) radar.
 * It tries to determine the location by comparing the measurements it makes with the reference map.
 
-## Screenshots:
+## SCREENSHOTS:
 <kbd><img src="images/SS_1.png"/></kbd>
 <br/><br/>
 <kbd><img src="images/SS_2.png"/></kbd>
