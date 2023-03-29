@@ -1,0 +1,48 @@
+input[type="submit"] {
+    background-color: black; border: solid black 1px; color: #ffffff; cursor: pointer;
+    font-size: 15px; font-weight: bold; height: 40px; margin-top: -10px;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.70;
+}
+
+.cell{
+    width: 88px; height: 120px;
+}
+
+#depthTable{
+    margin-top: 20px; border-collapse: collapse; margin-top: -10px;
+}
+
+#depthTable td{
+    border: 1px solid #0033FF; height: 35px; width: 35px; font-size: 30px; text-align: center; vertical-align: middle;
+}
+
+#realTable{
+    margin-top: 20px; border-collapse: collapse; margin-top: -10px;
+}
+
+#realTable td{
+    border: 1px solid #0033FF; height: 63px; width: 75px; font-size: 18px; padding: 0 3 3 3; vertical-align:top; text-align:center;
+}
+
+.title{
+    font-size: 24px; font-weight: bold; color: #0033FF; margin-bottom: 20px;
+}
+
+.subtitle{
+    font-size: 20px; font-weight: bold; color: black; margin-top: 0px;
+}
+
+.left{
+    float: left; width: 25%; min-height: 450px;
+}
+
+.middle{
+    float: left; width: 60%; min-height: 450px; margin-left: 3%;
+}
+
+.right{
+    float: right; width: 10%; min-height: 450px;
+}
