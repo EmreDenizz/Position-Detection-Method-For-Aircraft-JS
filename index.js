@@ -1,3 +1,7 @@
+/**
+ * @author Emre Deniz <https://github.com/EmreDenizz>
+*/
+
 // initialize depth map
 var mapSize = 8, depthMap = [], counter = 0, stepCounter = 0;
 for(var i = 0; i < mapSize; i++){
